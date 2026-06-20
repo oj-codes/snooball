@@ -1,1 +1,23 @@
+# Secrets — never commit
+.env
+
+# User data and backups (whole data dir kept out of the repo)
 data/
+
+# Logs (may contain account identifiers)
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
